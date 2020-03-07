@@ -2,16 +2,23 @@
 ### Principle Feature Focus Technique for Monstrous Data With a Peculiar Pattern
 
 
-## Introduction
-Dungeons and Dragons (D&D) is one of the most popular tabletop roleplaying games ever made. It would be an understatement to say that this game is well loved, however the game system does have a few issues. One of the most common criticisms of D&D is its complexity at higher levels of play. Follow me on a short adventure to tease apart some of this complexity and see what we can learn from it.
+![Broken Angle](https://sharpdesigndigital.com/wp-content/uploads/2020/02/ac_and_att.jpg "Broken Angle")
 
-All D&D content in this study was used with permission under the Open-Gaming License (OGL) and the DM’s Guild. Special thanks goes to Wizards of the Coast for making this possible!
+[Monster Blog](https://sharpdesigndigital.com/monster-data/)
 
-In the D&D Dungeon Master’s Guide by WoTC, it is suggested that when the armor class (AC) of a custom monster is set high, the attack bonus (ATT) should be set low for any given challenge rating (CR), but both AC and ATT should track up with increasing CR. This relationship forms a triad. This report will show how a simple technique can take advantage of this relationship for machine learning.
+Research Question:
+Is it possible to produce a tighter distribution of data by combining two or more counter-variant features with simple math?
 
+![Monster Graphs](https://sharpdesigndigital.com/wp-content/uploads/2020/02/att_ac_cr.jpg "Monster Graphs")
 
-### Project Links
-[Blog Link](https://sharpdesigndigital.com/monster-data/)
-[MonsterFactory](https://pypi.org/project/MonsterFactory/)
-[Fortuna](https://pypi.org/project/Fortuna/)
-[Storm](https://github.com/BrokenShell/Storm)
+[Monster Notebook](https://colab.research.google.com/drive/1veaih8LUZ7zBbKixNUI2hAynqQpurAC9)
+
+Data Source:
+The monster data was created with a toolkit called Fortuna.
+Not only did I build the dataset, I also built all the tools used to build the dataset.
+
+- [MonsterFactory | Monster Generator](https://pypi.org/project/MonsterFactory/)
+- [Fortuna | Python RNG Toolkit](https://pypi.org/project/Fortuna/)
+- [Storm | C++ RNG Engine](https://github.com/BrokenShell/Storm)
+
+![Features Combined](https://sharpdesigndigital.com/wp-content/uploads/2020/02/ac_plus_att.jpg "Result")
