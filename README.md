@@ -22,25 +22,26 @@ Academic details of the data and my findings.
 
 
 ## Monster Data Source
-Not only did I build the dataset for this project, I also built all the tools used to build the dataset.
+One million random monsters built with MonsterFactory.py
 
 
-#### [MonsterFactory.py | Monster Generator](https://pypi.org/project/MonsterFactory/)
+#### [MonsterFactory.py | Python Monster Generator](https://pypi.org/project/MonsterFactory/)
 MonsterFactory.py is a small library for generating random monsters.
-This is part of a larger project known as Dungeon Lib. Dungeon Lib can generate 
-full career spanning campaign settings with dungeons, settlements and wilderness areas.
+This is part of a larger project known as Dungeon Lib. Dungeon Lib can generate a
+full career spanning campaign setting with dungeons, settlements and wilderness areas.
+Built on Fortuna.
 
 
-#### [Fortuna | Python RNG Toolkit](https://pypi.org/project/Fortuna/)
-Fortuna is an abstraction toolkit for creating random generators in Python. Built on Storm.
+#### [Fortuna | Cython RNG Toolkit](https://pypi.org/project/Fortuna/)
+Fortuna features a collection of abstractions for creating custom random generators in Python. Built on Storm.
 - RandomValue: Higher-order random value generator.
 - TruffleShuffle: Wide distribution generator.
 - WeightedChoice: Programmable rarity.
-- QuantumMonty: Predefined distributions.
+- QuantumMonty: Collection of predefined distributions.
 - FlexCat: Multi-dimensional random value generator for matrices.
 
 
 #### [Storm | C++ RNG Engine](https://github.com/BrokenShell/Storm)
-Storm is a high performance random number engine based on the Mersenne Twister Algorithm. 
+Storm is a high performance random number engine based a custom implementation of the Mersenne Twister Algorithm. 
 - Functional style header-only wrapper for the C++ random library.
 - Low level distributions.
