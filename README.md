@@ -22,7 +22,7 @@ Academic details of the data and my findings.
 
 
 ## Monster Data Source
-One million random monsters built with MonsterFactory.py
+One million random monsters built with MonsterFactory.py -> 28MB CSV file.
 
 
 #### [MonsterFactory.py | Python Monster Generator](https://pypi.org/project/MonsterFactory/)
