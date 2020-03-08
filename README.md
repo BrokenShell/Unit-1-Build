@@ -42,6 +42,5 @@ Fortuna is an abstraction toolkit for creating random generators in Python. Buil
 
 #### [Storm | C++ RNG Engine](https://github.com/BrokenShell/Storm)
 Storm is a high performance random number engine based on the Mersenne Twister Algorithm. 
-- Functional header-only, wrapper for the C++ random library.
-- Hardware seeding only.
-- Low level distribution functions.
+- Functional style header-only wrapper for the C++ random library.
+- Low level distributions.
